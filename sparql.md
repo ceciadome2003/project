@@ -74,9 +74,13 @@ WHERE {
 }
 ORDER BY ?title
 LIMIT 10
+
+🚨 Proving the Gap
 Below is the official screenshot of our live query execution inside the institutional ArCo SPARQL Endpoint. As clearly demonstrated by the results table, the graph only links the painting to a single, flat generic literal value: "Allegoria della Primavera".
 <img width="1600" height="684" alt="image" src="https://github.com/user-attachments/assets/8a97b399-c97a-4d63-9537-f2900c1d05a3" />
+
 There is absolutely no trace of Venus, Mercury, Cupid, the Three Graces, or any of the rich iconographical data. The graph has a severe information gap, which our team will now solve in the next section using Prompt Engineering techniques.
+
 🧭 Navigation
 <a href="topic.html" class="btn">Back to Topic & Gap</a>
 <a href="prompts.html" class="btn">Proceed to Step 4: LLM Prompts & RDF</a>

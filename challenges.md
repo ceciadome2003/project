@@ -2,7 +2,13 @@
 layout: default
 title: Challenges & Conclusion
 ---
-
+<div style="text-align: center; margin-bottom: 30px;">
+  <a href="index.html" class="btn" style="margin: 5px; padding: 10px 15px;">🏠 Home</a>
+  <a href="topic.html" class="btn" style="margin: 5px; padding: 10px 15px;">🌸 Topic & Gap</a>
+  <a href="sparql.html" class="btn" style="margin: 5px; padding: 10px 15px;">📊 SPARQL Queries</a>
+  <a href="prompts.html" class="btn" style="margin: 5px; padding: 10px 15px;">🤖 LLM Prompts</a>
+  <a href="challenges.html" class="btn" style="margin: 5px; padding: 10px 15px;">🛠️ Challenges</a>
+</div>
 # Faced Challenges & Final Conclusions
 
 ---

@@ -11,6 +11,7 @@ title: LLM Prompts & Triples
 </div>
 # LLM Prompting & Knowledge Generation
 
+
 ---
 
 ### 🔬 Our Methodological Choice: Variable Isolation

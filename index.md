@@ -1,123 +1,35 @@
 ---
 layout: default
+title: Home
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Enriching Cultural Heritage Knowledge Graphs
+## A Semantic Approach to Botticelli's Primavera using SPARQL and LLMs
 
-[Link to another page](./another-page.html).
+---
 
-There should be whitespace between paragraphs.
+### 📝 Project Introduction
+This project was developed within the framework of the **KE4H (Knowledge Engineering for the Humanities)** course at the **[University of Bologna](https://www.unibo.it/it)**. Our primary goal was to explore how the combination of advanced SPARQL queries and Large Language Models (LLMs) can be effectively used to identify and enrich an existing cultural heritage knowledge graph with new, meaningful, and deeply contextual content.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+We chose to focus on **[Sandro Botticelli's masterpiece, "La Primavera"](https://it.wikipedia.org/wiki/Primavera_(Botticelli))**, a monumental Renaissance painting located in the Uffizi Gallery. Despite its immense historical, philosophical, and artistic value, its detailed iconographical representation in structured knowledge graphs remains limited. This made it a perfect candidate for semantic enrichment through AI-powered language models.
 
-# Header 1
+As our base knowledge graph, we selected **[ArCo](http://wit.istc.cnr.it/arco/)**, the official ontology network and RDF dataset of the Italian Ministry of Culture, which provides an excellent SPARQL endpoint for cultural heritage exploration.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+---
 
-## Header 2
+### 🛠️ Tools Used
+* **[ArCo SPARQL Endpoint](https://dati.cultura.gov.it/sparql)**
+* **[ChatGPT (OpenAI)](https://chatgpt.com)**
+* **[Gemini (Google)](https://gemini.google.com)**
+* **[GitHub Pages](https://pages.github.com/)**
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+---
 
-### Header 3
+### 👥 Our Team
+This project was collaboratively developed by:
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+* **[Nome Membro 1]** — SPARQL Query Specialist
+* **[Nome Membro 2]** — Prompt Engineer
+* **[Nome Membro 3]** — Knowledge Modeler
+* **[Nome Membro 4]** — Web Developer & Content Manager
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```

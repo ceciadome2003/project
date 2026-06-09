@@ -11,6 +11,7 @@ title: Home
   <a href="challenges.html" class="btn" style="margin: 5px; padding: 10px 15px;">🛠️ Challenges</a>
 </div>
 
+
 # Enriching Cultural Heritage Knowledge Graphs
 ## A Semantic Approach to Botticelli's Primavera using SPARQL and LLMs
 

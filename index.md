@@ -33,3 +33,9 @@ This project was collaboratively developed by:
 * **[Nome Membro 3]** — Knowledge Modeler
 * **[Nome Membro 4]** — Web Developer & Content Manager
 
+---
+
+### 🧭 Next Step
+To guarantee smooth navigation as required by the guidelines, you can jump directly to the next phase of our report:
+
+### ➔ [Proceed to Step 2: Selected Topic & Identifying Gaps](topic.html)

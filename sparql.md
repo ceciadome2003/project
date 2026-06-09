@@ -30,6 +30,9 @@ WHERE {
 }
 ORDER BY ?title
 Result Analysis: The endpoint returned several omonyms, duplicates, and mixed English/Italian labels. This forced us to restrict our search parameters in the next step to clean the data.
+
+
+🔹 Tappa B: Author and Language Filtering
 To isolate Botticelli's exact painting and clear out all the dataset noise, we added a strict regex filter on the author's name ("Botticelli") and forced the engine to only display titles explicitly tagged in Italian (⁠@it⁠).
 PREFIX arco: [https://w3id.org/arco/ontology/arco/](https://w3id.org/arco/ontology/arco/)
 PREFIX a-cd: [https://w3id.org/arco/ontology/context-description/](https://w3id.org/arco/ontology/context-description/)
@@ -48,6 +51,9 @@ WHERE {
 }
 ORDER BY ?title
 This query successfully isolated the unique, official IRI for Botticelli's masterpiece inside ArCo: ⁠https://w3id.org/arco/resource/HistoricOrArtisticProperty/0900158550⁠.
+
+
+🔹 Tappa C: Exposing the Informational Void (Definitive Query)
 Now that we possessed the exact target IRI, we built our final query using an ⁠OPTIONAL⁠ block to extract all subjects associated with the painting. This query is fully compliant with the course requirements as it integrates all 7 mandatory SPARQL keywords: ⁠DISTINCT⁠, ⁠UNION⁠, ⁠OPTIONAL⁠, ⁠FILTER⁠, ⁠REGEX⁠, ⁠LIMIT⁠, and ⁠ORDER BY⁠.
 PREFIX arco: [https://w3id.org/arco/ontology/arco/](https://w3id.org/arco/ontology/arco/)
 PREFIX a-cd: [https://w3id.org/arco/ontology/context-description/](https://w3id.org/arco/ontology/context-description/)

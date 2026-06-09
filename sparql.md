@@ -12,6 +12,7 @@ title: SPARQL Queries
 </div>
 # SPARQL Queries & Discovery of the Gap
 
+
 ---
 
 ### 📊 Our Incremental Query Strategy

@@ -12,10 +12,6 @@ title: Home
 </div>
 
 
-# Enriching Cultural Heritage Knowledge Graphs
-## A Semantic Approach to Botticelli's Primavera using SPARQL and LLMs
-
----
 
 # Enriching Cultural Heritage Knowledge Graphs
 ## A Semantic Approach to Botticelli's Primavera using SPARQL and LLMs
@@ -42,10 +38,10 @@ As our base knowledge graph, we selected **[ArCo](http://wit.istc.cnr.it/arco/)*
 ### 👥 Our Team
 This project was collaboratively developed by:
 
-* **[Nome Membro 1]** — SPARQL Query Specialist
-* **[Nome Membro 2]** — Prompt Engineer
-* **[Nome Membro 3]** — Knowledge Modeler
-* **[Nome Membro 4]** — Web Developer & Content Manager
+* **Giorgia Lacroce** 
+* **Roberta Casacchia** 
+* **Caterina Zanet** 
+* **Cecilia Domeniconi** 
 
 ---
 
